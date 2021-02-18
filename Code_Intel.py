@@ -6,4 +6,12 @@ def calc():
         c = c + 1
         if (c % int(a) == 0):
             print(end="\n")
+
+def pattern():
+    inp = input("Enter a number ")
+    for i in range(int(inp)):
+        for j in range(i+1):
+            print("*", end=' ')
+        print(end='\n')
 calc()
+pattern()            
